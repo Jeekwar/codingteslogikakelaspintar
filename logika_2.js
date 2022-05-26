@@ -1,0 +1,10 @@
+let extrInput = prompt('masukkan kata');
+let regGaj = /sang gajah/gi;
+let regSer = /serigala/gi;
+let regHar = /harimau/gi;
+let resultGaj = extrInput.match(regGaj);
+let resultSer = extrInput.match(regSer);
+let resultHar = extrInput.match(regHar);
+console.log(resultGaj);
+console.log(resultSer);
+console.log(resultHar);
